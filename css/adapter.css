@@ -1,0 +1,62 @@
+/* 小屏手机，如iPhone4、iPhone5 */
+@media screen and (max-width:350px) { 
+	html body{
+		font-size:75%;
+	}
+}
+
+/* 中大屏手机，如iPhone6 */
+@media screen and (min-width: 351px) and (max-width: 400px){ 
+	html body{
+		font-size:81.3%;
+	}
+}
+
+/* 超大屏手机，如iPhone6 Plus */
+@media screen and (min-width: 401px) and (max-width: 450px){ 
+	html body{
+		font-size:87.5%;
+	}
+}
+
+/* 平板手机手机，尺寸介于手机和小平板之间 */
+@media screen and (min-width: 451px) and (max-width: 500px){ 
+	html body{
+		font-size:93.8%;
+	}
+}
+/* 
+小平板电脑，如iPad mini
+@media screen and (min-width: 551px) and (max-width: 650px){ 
+	html body{
+		font-size:118.5%;
+	}
+}
+
+小平板电脑，如iPad mini
+@media screen and (min-width: 651px) and (max-width: 768px){ 
+	html body{
+		font-size:131.3%;
+	}
+} */
+
+/*PC电脑屏幕*/
+@media screen and (min-width: 500px){ 
+	html body{
+		font-size:100%;
+	}
+}
+ 
+/*平板电脑，如iPad Air
+@media screen and (min-width: 769px) and (max-width: 1300px){ 
+	html body{
+		font-size:131.3%;
+	}
+}
+
+PC电脑屏幕
+@media screen and (min-width: 1301px){ 
+	html body{
+		font-size:150%;
+	}
+} */
